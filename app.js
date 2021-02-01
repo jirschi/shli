@@ -1,10 +1,10 @@
 const express = require("express");
 var path = require('path');
-var helmet = require('helmet');
+//var helmet = require('helmet');
 
 
 let app = new express();
-app.use(helmet());
+//app.use(helmet());
 let port = 80;
 
 
