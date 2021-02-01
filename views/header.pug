@@ -1,0 +1,37 @@
+﻿header
+
+div.container
+    h1.site-heading.text-center.text-white.d-none.d-lg-block
+        div.row
+            div.col-xl-9.col-lg-10.mx-auto
+                span.site-heading-upper.text-primary.mb-3.praxisueber Therapeutische Praxis für Kinder und Jugendliche
+        div.row
+            div.col-xl-10.col-lg-10.mx-auto
+                span.site-heading-lower.praxisname Silvia Höfer & Ingrid Lipp
+    
+nav#mainNav.navbar.navbar-expand-lg.navbar-dark.py-lg-4
+    div.container
+        div#navbarResponsive.collapse.navbar-collapse
+            ul.navbar-nav.mx-auto
+                li.nav-item.px-lg-4
+                    a.nav-link.text-uppercase.text-expanded(href='/') Home
+                li.nav-item.px-lg-4
+                    a.nav-link.text-uppercase.text-expanded(href='praxis') Über die Praxis
+                li.nav-item.px-lg-4.dropdown
+                    a#navbarDropdown.nav-link.text-uppercase.text-expanded.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Therapie
+                    div.dropdown-menu(aria-labelledby='navbarDropdown')
+                        a.dropdown-item(href='kinder') Kinder
+                        a.dropdown-item(href='jugendliche') Jugendliche
+                        a.dropdown-item(href='sprechstunde') Sprechstunde
+                        a.dropdown-item(href='kostenuebernahme') Kostenübernahme
+                li.nav-item.px-lg-4.dropdown
+                    a#navbarDropdown.nav-link.text-uppercase.text-expanded.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Über uns
+                    div.dropdown-menu(aria-labelledby='navbarDropdown')
+                        a.dropdown-item(href='hoefer') Silvia Höfer
+                        a.dropdown-item(href='lipp') Ingrid Lipp
+                        a.dropdown-item(href='haigis') Anna Haigis
+                        a.dropdown-item(href='cornelsen') Sarah Cornelsen
+                li.nav-item.px-lg-4
+                    //a.nav-link.text-uppercase.text-expanded(href='contact') Kontakt
+                li.nav-item.px-lg-4
+                    //a.nav-link.text-uppercase.text-expanded(href='anfahrt') Anfahrt
