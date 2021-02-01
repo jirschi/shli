@@ -1,21 +1,23 @@
-const express = require("express");
+var express = require("express");
+var app = express();
+var port = process.env.PORT || process.env.VCAP_APP_PORT || 3000;
+var http = require('http').Server(app);
+
+
 var path = require('path');
 //var helmet = require('helmet');
-
-
-let app = new express();
 //app.use(helmet());
-let port = 80;
+
 
 
 
 
 //GET, POST, ...
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static("public"));
 
-app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-
+app.enable('trust proxy');
 
 app.get('/', function (req, res) {
     res.render('index');
@@ -59,6 +61,10 @@ app.all('*', function (req, res) {
     res.send("Sth went wrong")
 });
 
-app.listen(port, function () {
-    console.log("Server started listening on: " + port);
+//app.listen(port, function () {
+//    console.log("Server started listening on: " + port);
+//});
+
+http.listen(port, function () {
+    console.log('listening on *:' + port);
 });
