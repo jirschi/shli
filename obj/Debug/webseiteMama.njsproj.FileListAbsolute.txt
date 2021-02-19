@@ -1,2 +1,3 @@
 D:\jergb\Documents\VS 2017\Source\Repos\webseiteTest\webseiteTest\obj\Debug\webseiteMama.njsproj.CoreCompileInputs.cache
 D:\jergb\Documents\VS 2017\Source\Repos\webseiteTest\webseiteTest\bin\Microsoft.NodejsTools.WebRole.dll
+D:\jergb\Documents\VS 2017\Source\Repos\webseiteTest\webseiteTest\obj\Debug\webseiteMama.njsprojAssemblyReference.cache
