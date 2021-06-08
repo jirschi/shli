@@ -19,6 +19,10 @@ p {
   line-height: 1.75;
 }
 
+.footimpr {
+    color: whitesmoke !important;
+}
+
 .praxisueber{
   
 }
@@ -41,6 +45,12 @@ p {
     font-family: 'Raleway' !important;
 }
 
+.impressum {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
@@ -61,6 +71,13 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+}
+
+.section-heading-imp {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .section-heading .section-heading-upper {
@@ -249,7 +266,8 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-top: 100px !important;
 }
 
 .text-primary {
@@ -266,14 +284,14 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+    background-color: rgba(212, 49, 0, 0.8);
+    border-color: rgba(212, 49, 0, 0.8);
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
-}
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+        background-color: rgba(212, 49, 0, 0.7);
+        border-color: rgba(212, 49, 0, 0.7);
+    }
 
 .font-weight-light {
   font-weight: 100 !important;

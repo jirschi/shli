@@ -22,6 +22,9 @@ app.enable('trust proxy');
 app.get('/', function (req, res) {
     res.render('index');
 });
+app.get('/index', function (req, res) {
+    res.render('index');
+});
 app.get('/praxis', function (req, res) {
     res.render('praxis')
 });
@@ -56,6 +59,12 @@ app.get('/kinder', function (req, res) {
 });
 app.get('/jugendliche', function (req, res) {
     res.render('jugend')
+});
+app.get('/impressum', function (req, res) {
+    res.render('impressum')
+});
+app.get('/datenschutz', function (req, res) {
+    res.render('datenschutz')
 });
 app.all('*', function (req, res) {
     res.send("Sth went wrong")
