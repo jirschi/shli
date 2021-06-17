@@ -13,10 +13,10 @@ h4,
 h5,
 h6 {
     font-family: 'Raleway' !important;
-    word-wrap: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -31,10 +31,10 @@ img {
 p {
     line-height: 1.75;
     max-width: 700px;
-    word-wrap: normal;
-    word-wrap: break-word;
     overflow-wrap: break-word;
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
