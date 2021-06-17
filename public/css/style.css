@@ -15,8 +15,22 @@ h6 {
   font-family: 'Raleway' !important;
 }
 
+
+img {
+    max-width: 100%;
+}
+
 p {
   line-height: 1.75;
+  max-width: 700px;
+}
+
+span {
+    max-width:700px;
+}
+
+.footerrow {
+    max-width:1500px;
 }
 
 .praxisheader {
@@ -106,6 +120,12 @@ p {
     background-color: rgba(212, 49, 0, 0.8);
     font-family: 'Raleway' !important;
     height: 65px !important;
+}
+
+#mainFoot {
+    background-color: rgba(212, 49, 0, 0.8);
+    font-family: 'Raleway' !important;
+   
 }
 
 #mainNav .navbar-brand {
@@ -229,15 +249,14 @@ p {
     margin-bottom: -2rem;
   }
   .product-item .product-item-img {
-    position: relative;
+    
     z-index: 0;
-    max-width: 60vw;
+    
   }
     .product-item .product-item-description {
         position: relative;
         z-index: 1;
         margin-top: -2rem;
-        max-width: 50vw;
         font-size: large;
         font-weight: 500 !important;
     }
