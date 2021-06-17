@@ -16,6 +16,7 @@ var path = require('path');
 //app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static("public"));
 
+
 app.set('view engine', 'pug');
 app.enable('trust proxy');
 
@@ -66,6 +67,12 @@ app.get('/impressum', function (req, res) {
 app.get('/datenschutz', function (req, res) {
     res.render('datenschutz')
 });
+
+app.get('/robots.txt', function (req, res) {
+    res.type('text/plain');
+    res.send("User-agent: *\nDisallow: /");
+});
+
 app.all('*', function (req, res) {
     res.send("Sth went wrong")
 });
