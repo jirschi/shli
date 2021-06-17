@@ -119,13 +119,19 @@ span {
 #mainNav {
     background-color: rgba(212, 49, 0, 0.8);
     font-family: 'Raleway' !important;
-    height: 65px !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #mainFoot {
     background-color: rgba(212, 49, 0, 0.8);
     font-family: 'Raleway' !important;
    
+}
+
+.resfont {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 800;
 }
 
 #mainNav .navbar-brand {
@@ -320,3 +326,7 @@ span {
 .font-weight-light {
   font-weight: 100 !important;
 }
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='w3.org/2000/svg'%3E%3Cpath stroke='rgba(245,245,245, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
