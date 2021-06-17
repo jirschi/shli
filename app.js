@@ -70,7 +70,7 @@ app.get('/datenschutz', function (req, res) {
 
 app.get('/robots.txt', function (req, res) {
     res.type('text/plain');
-    res.send("User-agent: *\nDisallow: /");
+    res.send("User-agent: *\nDisallow: ");
 });
 
 app.all('*', function (req, res) {
