@@ -58,8 +58,8 @@ span {
     font-size: 13px;
 }
 
-.praxisueber{
-  
+.praxisueber {
+    max-width: 1000px !important;
 }
 
 .praxisname {
