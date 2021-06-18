@@ -50,12 +50,12 @@ span {
 }
 
 .praxisheader {
-    font-size: 40px !important;
+    font-size: 2.5rem !important;
 }
 
 .footimpr {
     color: whitesmoke !important;
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
 .praxisueber {
@@ -63,7 +63,7 @@ span {
 }
 
 .praxisname {
-    font-size: 69px !important;
+    font-size: 4.3125rem !important;
     font-weight:100 !important;
     white-space: nowrap;
 }
@@ -345,4 +345,58 @@ span {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='w3.org/2000/svg'%3E%3Cpath stroke='rgba(245,245,245, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} 
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 240px) {
+    html {
+        font-size: 7px;
+    }
+
+    .product-item .product-item-description {
+        font-size: 12px;
+    }
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    html {
+        font-size: 8px;
+    }
+
+    .product-item .product-item-description {
+        font-size: 13px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    .product-item .product-item-description {
+        font-size: 13px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .product-item .product-item-description {
+        font-size: 13px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+    .product-item .product-item-description {
+        font-size: 14px;
+    }
+}
