@@ -224,7 +224,7 @@ span {
 
 @media (min-width: 1200px) {
   .intro .intro-text {
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -313,7 +313,7 @@ span {
 
 .footer {
     background-color: rgba(255, 255, 255, 0.85);
-    margin-top: 100px !important;
+    margin-top: 120px !important;
 }
 
 .text-primary {
@@ -356,6 +356,12 @@ span {
     .product-item .product-item-description {
         font-size: 12px;
     }
+    p {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 11px;
+    }
 }
 
 /* Small devices (landscape phones, 544px and up) */
@@ -366,6 +372,12 @@ span {
 
     .product-item .product-item-description {
         font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 12px;
     }
 }
 
@@ -378,6 +390,12 @@ span {
     .product-item .product-item-description {
         font-size: 13px;
     }
+    p {
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 12px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -389,14 +407,27 @@ span {
     .product-item .product-item-description {
         font-size: 13px;
     }
+
+    p {
+        font-size:13px;
+    }
+    .btn {
+        font-size: 12px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     html {
-        font-size: 14px;
+        font-size: 15px;
     }
     .product-item .product-item-description {
-        font-size: 14px;
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 15px;
     }
 }
