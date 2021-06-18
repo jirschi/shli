@@ -10,7 +10,7 @@ var layer_markers;
 
 function drawmap() {
     // Popup und Popuptext mit evtl. Grafik
-    var popuptext = "<font color=\"black\"><b>Therapeutische Praxis <br>Hoefer-Lipp<br>Wuerttembergerstr. 3<br>72768 Reutlingen</b><p><img src=\"img/anfahrt.JPG\" width=\"180\" height=\"113\"></p></font>";
+    var popuptext = "<font color=\"black\"><p><b>Therapeutische Praxis <br>Hoefer-Lipp<br>Wuerttembergerstr. 3<br>72768 Reutlingen</b></p><p><img src=\"img/anfahrt.JPG\" width=\"180\" height=\"113\"></p></font>";
 
     OpenLayers.Lang.setCode('de');
 
